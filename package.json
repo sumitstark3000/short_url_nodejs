@@ -1,0 +1,29 @@
+{
+  "name": "short_url",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/sumitstark3000/SHORT_URL#readme",
+  "bugs": {
+    "url": "https://github.com/sumitstark3000/SHORT_URL/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumitstark3000/SHORT_URL.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1",
+    "nanoid": "^5.1.6",
+    "nodemon": "^3.1.11",
+    "uuid": "^13.0.0"
+  }
+}
