@@ -4,7 +4,7 @@ const path = require("path");
 const cookieParser = require("cookie-parser");
 const { connectToMongoDB } = require("./connect");
 const { restrictToLoggedInUser, checkAuth } = require("./middlewares/auth");
-const staticRoute = require("./routes/staticrouter");
+const staticRoute = require("./routes/staticRouter");
 const URL = require("./models/url");
 const userRoute = require("./routes/user");
 
